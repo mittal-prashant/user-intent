@@ -1,0 +1,7 @@
+nltk==3.8.1
+tensorflow==2.14.0
+datasets==2.14.6
+langchain==0.0.197
+gtp4all==0.3.2
+numpy==1.26.2
+pandas==2.1.3

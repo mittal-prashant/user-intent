@@ -1,0 +1,36 @@
+Query: I lost my card, please block transaction on my account help me get my card
+1/1 [==============================] - 0s 171ms/step
+
+Possible Intents: ['pin_blocked', 'lost_or_stolen_card']
+"Can you please let us know if there are any issues with your account regarding blocked/blocked transactions, and whether or no we have taken up necessary steps for resolving them."
+"Do you have your wallet or bank statement with us?"
+Response: ['"Can you please let us know if there are any issues with your account regarding blocked/blocked transactions, and whether or no we have taken up necessary steps for resolving them."', '"Do you have your wallet or bank statement with us?"']
+Query: Yes my card is lost can I get it back soon
+1/1 [==============================] - 0s 48ms/step
+
+Possible Intents: ['card_swallowed']
+What specific information are you looking for regarding Card SWALO wallet?
+Response: ['What specific information are you looking for regarding Card SWALO wallet?']
+Query: i lost my card how can i get it back thank you
+1/1 [==============================] - 0s 36ms/step
+
+Possible Intents: ['card_linking', 'getting_spare_card', 'card_swallowed', 'direct_debit_payment_not_recognised', 'lost_or_stolen_card']
+"Can you please provide me with information about any errors or issues regarding your recent Card Linking activity?"
+"Can you please provide your current account information such as bank number, routing code and other relevant details for me?"
+"What type of account do you have and what are your monthly expenses?"
+"Can you provide a detailed description or example for Direct Debit Payment and its importance?"
+"Did you recently lose or steal your bank card? If so, can we help?"
+Response: ['"Can you please provide me with information about any errors or issues regarding your recent Card Linking activity?"', '"Can you please provide your current account information such as bank number, routing code and other relevant details for me?"', '"What type of account do you have and what are your monthly expenses?"', '"Can you provide a detailed description or example for Direct Debit Payment and its importance?"', '"Did you recently lose or steal your bank card? If so, can we help?"']
+Query: Please close my account to avoid fraud
+1/1 [==============================] - 0s 68ms/step
+
+Possible Intents: ['terminate_account', 'compromised_card', 'why_verify_identity']
+"What specific account do you want me (bank) to assist with terminating?"
+What steps would you take if your card information was accessed through a breach?
+"Why do you need identity verification?"
+Response: ['"What specific account do you want me (bank) to assist with terminating?"', 'What steps would you take if your card information was accessed through a breach?', '"Why do you need identity verification?"']
+Query: terminate my account, my account details are xx and please close it soon
+1/1 [==============================] - 0s 44ms/step
+
+Possible Intents: ['terminate_account']
+User Intent Finally: ['terminate_account']
